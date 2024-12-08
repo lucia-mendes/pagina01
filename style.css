@@ -1,0 +1,509 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root{
+    --cor0: #ffffff;
+    --cor1: #f8e1e7;
+    --cor2: #ebaac4;
+    --cor3: #D5E1FF;
+    --cor4: #2C323E;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: "Montserrat" , sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: var(--fonte-padrao);
+    overflow-x: hidden;
+}
+
+div.azul{
+    background-color: var(--cor4);
+    padding-top: 20px;
+    color: var(--cor0);
+    font-size: 1.0em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.213);
+    height: 58px;
+    width:  1349px;
+}
+
+.fale{
+    margin-left: 120px;
+    transform: translate(5px, -42px);
+    height: 120px;
+}
+
+.num{
+    margin-left: 118px;
+    transform: translate(5px, -143px);
+    height: 120px;
+}
+
+#borda{
+    border-radius: 40px;
+    width: 40px;
+    margin-left: 70px
+}
+
+.atender{
+    margin-left: 550px;
+    transform: translate(5px, -326px);
+}
+
+.semana{
+    margin-left: 550px;
+    transform: translate(5px, -326px);
+}
+
+.redondo{
+    border-radius: 40px;
+    width: 40px;  
+    transform: translate(5px, -285px);
+    margin-left: 500px
+}
+
+#botao{
+    margin-left: 990px;
+    transform: translate(5px, -408px);
+    height: 38px;
+    width: 151px;
+    border-radius: 5px;
+    background-color: var(--cor1);
+}
+
+.contacto{
+    border-radius: 40px;
+    width: 40px;  
+    transform: translate(5px, -364px);
+    margin-left: 940px
+}
+
+nav.branco{
+    background-color: var(--cor0);
+    height: 100px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.213);
+}
+
+#logo{
+    height: 110px;
+    margin-left: 60px;
+}
+
+nav > a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+    width: 500px;
+    left: 80px;
+    top: -50px;
+    margin-left: 40px;
+    word-spacing: 60px;
+}
+
+#empresa{
+    margin-left: 999px;
+    background-color: var(--cor4);
+    color: var(--cor0);
+    border-radius: 20px;
+    width: 200px;
+    height: 30px;
+    transform: translate(5px, -74px);
+}
+
+section.artes{
+    position: relative;
+    background-image: url(../pagina01/pexels-fauxels-3183183.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    color: var(--cor1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-shadow: 2px 2px 0px rgba(1, 7, 0, 0.213);
+    
+}
+
+.ponto{
+    text-align: left;
+}
+
+h1.foco{
+    font-size: 2em;
+    margin-bottom: 20px;
+    position: relative;
+    right: 140px;
+}
+
+p.encanto{
+    font-size: 1em;
+    margin-bottom: 40px;
+    position: relative;
+    right: 140px;
+    width: 700px;
+    font-weight: bold;
+}
+
+button.mais{
+    border-radius: 8px;
+    width: 120px;
+    height: 35px;
+    position: relative;
+    right: 140px;
+    background-color: var(--cor4);
+    color: var(--cor0);
+    font-weight: bold;
+    text-shadow: 2px 2px 0px rgba(7, 0, 0, 0.213);
+}
+
+div.confi{
+    background-color: var(--cor4);
+    color: var(--cor0);
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    position: relative;
+    left: 120px;
+    bottom: 30px;
+    text-shadow: 2px 2px 0px rgba(0, 8, 10, 0.213);
+    border-radius: 4px;
+}
+
+img.conf{
+    border-radius: 47px;
+    position: relative;
+    bottom: 20px;
+    height: 50px;
+    width: 50px;
+}
+
+div.credi{
+    background-color: var(--cor4);
+    color: var(--cor0);
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    position: relative;
+    left: 529px;
+    top: -229px;
+    bottom: 30px;
+    text-shadow: 2px 2px 0px rgba(0, 8, 10, 0.213);
+    border-radius: 4px;
+}
+
+img.cred{
+    border-radius: 47px;
+    position: relative;
+    bottom: 20px;
+    height: 50px;
+    width: 50px;
+}
+
+div.eti{
+    background-color: var(--cor4);
+    color: var(--cor0);
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    position: relative;
+    left: 930px;
+    top: -429px;
+    bottom: 30px;
+    text-shadow: 2px 2px 0px rgba(0, 8, 10, 0.213);
+    border-radius: 4px;
+}
+
+img.etica{
+    border-radius: 47px;
+    position: relative;
+    bottom: 20px;
+    height: 50px;
+    width: 50px;
+}
+
+.center{
+    text-align: center;
+    position: relative;
+    bottom: 300px;
+    font-size: 2.5em;
+    color: #2C323E;
+}
+.centro{
+    text-align: center;
+    position: relative;
+    bottom: 280px;
+    font-size: 1em;
+}
+
+a.igual{
+    text-decoration: none;
+    color: var(--cor4);
+    position: relative;
+    top: 10px;
+}
+
+img.Assessoria{
+    position: relative;
+    top: 49px;
+    right: 57px;
+    height: 50px;
+    width: 50px;
+}
+
+div.assess{
+    color: black;
+    height: 200px;
+    width: 300px;
+    text-align: left;
+    position: relative;
+    left: 129px;
+    top: -229px;
+    bottom: 30px;
+    text-shadow: 2px 2px 0px rgba(0, 8, 0, 0.13);
+}
+
+img.contabil{
+    position: relative;
+    top: 45px;
+    right: 51px;
+    height: 40px;
+    width: 40px;
+}
+
+div.conta{
+    color: black;
+    height: 200px;
+    width: 300px;
+    text-align: left;
+    position: relative;
+    left: 539px;
+    top: -421px;
+    bottom: 30px;
+    text-shadow: 2px 2px 0px rgba(0, 8, 0, 0.13);
+}
+
+img.humanos{
+    position: relative;
+    top: 45px;
+    right: 51px;
+    height: 40px;
+    width: 40px;
+}
+
+div.recursos{
+    color: black;
+    height: 200px;
+    width: 300px;
+    text-align: left;
+    position: relative;
+    left: 962px;
+    top: -621px;
+    bottom: 30px;
+    text-shadow: 2px 2px 0px rgba(0, 8, 0, 0.13);
+}
+
+img.fisca{
+    position: relative;
+    top: 45px;
+    right: 51px;
+    height: 40px;
+    width: 40px;
+}
+
+div.fiscal{
+    color: black;
+    height: 200px;
+    width: 300px;
+    text-align: left;
+    position: relative;
+    left: 129px;
+    top: -657px;
+    bottom: 30px;
+    text-shadow: 2px 2px 0px rgba(0, 8, 0, 0.13);
+}
+
+img.societ{
+    position: relative;
+    top: 45px;
+    right: 51px;
+    height: 40px;
+    width: 40px;
+}
+
+div.societario{
+    color: black;
+    height: 200px;
+    width: 300px;
+    text-align: left;
+    position: relative;
+    left: 541px;
+    top: -857px;
+    bottom: 30px;
+    text-shadow: 2px 2px 0px rgba(0, 8, 0, 0.13);
+}
+
+img.planejamento{
+    position: relative;
+    top: 45px;
+    right: 51px;
+    height: 40px;
+    width: 40px;
+}
+
+div.plano{
+    color: black;
+    height: 200px;
+    width: 300px;
+    text-align: left;
+    position: relative;
+    left: 962px;
+    top: -1058px;
+    bottom: 30px;
+    text-shadow: 2px 2px 0px rgba(0, 8, 0, 0.13);
+}
+
+
+.imagem{
+    background-image: url(../pagina01/istockphoto-2094337676-1024x1024.jpg);
+    position: relative;
+    bottom: 1020px;
+    width: 100%;
+    pointer-events: none;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    color: var(--cor1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-shadow: 2px 2px 0px rgba(1, 7, 0, 0.213);
+    text-indent: 10px;
+    height: 500px;
+}
+  
+.imagem::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #2c323edf;
+    pointer-events: none; 
+}
+
+div.letra{
+    position: relative;
+    top: -1500px;
+    width: 900px;
+    height: 700px;
+    color: var(--cor1);
+}
+
+div.meury{
+    position: relative;
+    top: -2100px;
+    left: 900px;
+    width: 320px;
+    height: 700px;
+    color: var(--cor1);
+}
+
+.junior{
+    text-decoration: none;
+    color: var(--cor1);
+    position: relative;
+    top: 2px;
+    font-size: 2.2em;
+}
+
+.preferi{
+    position: relative;
+    top: 70px;
+}
+
+.form{
+    background-color: #2C323E;
+    width: 600px;
+}
+
+form{
+   position: relative;
+   top: 50px;
+   left: 110px;
+   margin-top: 20px;
+}
+
+button.enviar{
+    border-radius: 31px;
+    width: 130px;
+    height: 50px;
+    position: relative;
+    top: 20px;
+}
+
+.rodape{
+    position: relative;
+    bottom: 2490px;
+    left: 500px;
+    width: 700px;
+}
+
+.logo{
+    width: 120px;
+    position: relative;
+    right: 170px;
+    top: 100px;
+}
+a.efeito:hover{
+    padding: 9px;
+    color: var(--cor2);
+    background-color: var(--cor4);
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 8px;
+}
+
+div.confi:hover{
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: var(--cor1);
+    text-shadow: rgba(0, 8, 10, 0.213);
+}
+
+div.credi:hover{
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: var(--cor1);
+    text-shadow: rgba(0, 8, 10, 0.213);
+}
+
+div.eti:hover{
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: var(--cor1);
+    text-shadow: rgba(0, 8, 10, 0.213);
+}
+
+.form:focus{
+    border-radius: 8px;
+    background-color: var(--cor3);
+    height: 30px;
+}
+
+#mens:focus{
+    border-radius: 8px;
+    background-color: var(--cor3);
+    height: 170px;
+}
